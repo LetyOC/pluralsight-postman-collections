@@ -50,7 +50,7 @@
 					}
 				}
 			],
-			"_postman_id": "38219b73-8c42-45ba-a73b-7a14d6d18901",
+			"id": "38219b73-8c42-45ba-a73b-7a14d6d18901",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -70,10 +70,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"HH Empire\"\r\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\r\n    \"name\": \"HH Empire\"\r\n}"
 				},
 				"url": "{{host}}/households",
 				"description": "Esta solicitud generará un nuevo household en la API de Globomantics"
@@ -98,10 +95,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"HH Empire\"\r\n}",
-							"options": {
-								"raw": {}
-							}
+							"raw": "{\r\n    \"name\": \"HH Empire\"\r\n}"
 						},
 						"url": "{{host}}/households"
 					},
@@ -161,7 +155,7 @@
 					}
 				}
 			],
-			"_postman_id": "c6aa5ddf-8bd7-445c-b05c-45c3dcd14f16",
+			"id": "c6aa5ddf-8bd7-445c-b05c-45c3dcd14f16",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -181,10 +175,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "  {\r\n        \"email\": \"{{email}}\",\r\n        \"firstName\": \"{{firstName}}\",\r\n        \"lastName\": \"{{lastName}}\",\r\n        \"householdId\": {{houseHoldId}}\r\n  }",
-					"options": {
-						"raw": {}
-					}
+					"raw": "  {\r\n        \"email\": \"{{email}}\",\r\n        \"firstName\": \"{{firstName}}\",\r\n        \"lastName\": \"{{lastName}}\",\r\n        \"householdId\": {{houseHoldId}}\r\n  }"
 				},
 				"url": "{{host}}/users"
 			},
@@ -233,7 +224,7 @@
 					}
 				}
 			],
-			"_postman_id": "fa26afed-0a3b-435f-8b3e-a1f37b1b2852",
+			"id": "fa26afed-0a3b-435f-8b3e-a1f37b1b2852",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -251,13 +242,13 @@
 						"type": "text"
 					}
 				],
-				"url": "{{host}}/wishlists/{{wishListId}}/books/1"
+				"url": "{{host}}/wishlists/{{wishListIds}}/books/1"
 			},
 			"response": []
 		},
 		{
 			"name": "Get Books HouseHold",
-			"_postman_id": "ad4bb0ca-22fe-489d-a627-1e6d2782a907",
+			"id": "ad4bb0ca-22fe-489d-a627-1e6d2782a907",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
