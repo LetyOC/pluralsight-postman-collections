@@ -189,7 +189,7 @@
 					"script": {
 						"id": "1eafe24c-835d-4307-ab5d-f739d9ef2866",
 						"exec": [
-							"const books = pm.globals.get(\"bookIds\");\r",
+							"const books = pm.globals.get(\"booksIds\");\r",
 							"pm.globals.set(\"bookId\", _.sample(books));\r",
 							"\r",
 							"const wishlists = pm.globals.get(\"wishListIds\");\r",
