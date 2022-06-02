@@ -190,10 +190,10 @@
 						"id": "1eafe24c-835d-4307-ab5d-f739d9ef2866",
 						"exec": [
 							"const books = pm.globals.get(\"bookIds\");\r",
-							"pm.globals.set(\"bookIds\", _.sample(books));\r",
+							"pm.globals.set(\"bookId\", _.sample(books));\r",
 							"\r",
 							"const wishlists = pm.globals.get(\"wishListIds\");\r",
-							"pm.globals.set(\"wishListIds\", wishlists);\r",
+							"pm.globals.set(\"wishListId\", _.sample(wishlists));\r",
 							"\r",
 							"\r",
 							"\r",
@@ -242,7 +242,7 @@
 						"type": "text"
 					}
 				],
-				"url": "{{host}}/wishlists/{{wishListIds}}/books/1"
+				"url": "{{host}}/wishlists/{{wishlistId}}/books/{{bookId}}"
 			},
 			"response": []
 		},
