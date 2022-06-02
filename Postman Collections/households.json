@@ -132,7 +132,7 @@
 						"id": "fb016a8c-62c9-4e24-998b-40aefe7f5f2f",
 						"exec": [
 							"const ids = pm.globals.get(\"wishListIds\");\r",
-							"ids.push(pm.response.json().wishListId);\r",
+							"ids.push(pm.response.json().wishlistId);\r",
 							"pm.globals.set(\"wishListIds\", ids);\r",
 							"\r",
 							"console.log(`Lsta: ${ids}`);\r",
