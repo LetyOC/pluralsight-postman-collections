@@ -193,7 +193,7 @@
 							"pm.globals.set(\"bookId\", _.sample(books));\r",
 							"\r",
 							"const wishlists = pm.globals.get(\"wishListIds\");\r",
-							"pm.globals.set(\"wishListId\", _.sample(wishlists));\r",
+							"pm.globals.set(\"wishlistId\", _.sample(wishlists));\r",
 							"\r",
 							"\r",
 							"\r",
