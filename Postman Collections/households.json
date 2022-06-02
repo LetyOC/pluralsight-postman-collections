@@ -135,6 +135,8 @@
 							"ids.push(pm.response.json().wishListId);\r",
 							"pm.globals.set(\"wishListIds\", ids);\r",
 							"\r",
+							"console.log(`Lsta: ${ids}`);\r",
+							"\r",
 							"let userCount = pm.globals.get(\"currentUserCount\");\r",
 							"userCount++;\r",
 							"pm.globals.set(\"currentUserCount\", userCount);\r",
