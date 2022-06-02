@@ -195,7 +195,6 @@
 							"const wishlists = pm.globals.get(\"wishListIds\");\r",
 							"pm.globals.set(\"wishlistId\", _.sample(wishlists));\r",
 							"\r",
-							"console.log(`Lista ${pm.globals.get(\"wishListIds\")}`);\r",
 							"\r",
 							"\r",
 							"\r",
